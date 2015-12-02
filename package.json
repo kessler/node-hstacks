@@ -1,0 +1,31 @@
+{
+  "name": "hstacks",
+  "version": "0.0.1",
+  "description": "hierarchical stacks",
+  "license": "MIT",
+  "author": {
+    "name": "yaniv kessler",
+    "email": "yaniv@gmail.com",
+    "url": "blog.yanivkessler.com"
+  },
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "debug": "^2.2.0",
+    "digital-tree": "^1.0.0",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "keywords": [
+    "middleware"
+  ],
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=2.0.0"
+  }
+}
