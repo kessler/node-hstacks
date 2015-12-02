@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "hierarchical stacks",
   "license": "MIT",
+  "keywords": ["middleware", "stack", "async", "http", "control flow"],
   "author": {
     "name": "yaniv kessler",
     "email": "yaniv@gmail.com",
