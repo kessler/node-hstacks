@@ -1,9 +1,11 @@
 {
   "name": "hstacks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "hierarchical stacks",
   "license": "MIT",
-  "keywords": ["middleware", "stack", "async", "http"],
+  "keywords": [
+    "middleware"
+  ],
   "author": {
     "name": "yaniv kessler",
     "email": "yaniv@gmail.com",
@@ -22,9 +24,6 @@
     "chai": "^3.4.1",
     "mocha": "^2.3.4"
   },
-  "keywords": [
-    "middleware"
-  ],
   "engines": {
     "node": ">=0.10.0",
     "npm": ">=2.0.0"
