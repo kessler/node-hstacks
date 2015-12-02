@@ -28,7 +28,7 @@ This construct was designed with http framework in mind but the implemetation tr
        |     +-------------------+      | stack: [f7, f8]     |
        |     | path: ['a', 'c']  |      |                     |
        |     |                   |      +---------------------+
-       +----^+ stack: [f5, f6]   |
+       +-----> stack: [f5, f6]   |
              |                   |
              +-------------------+
 ```
