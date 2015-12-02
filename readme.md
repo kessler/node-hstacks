@@ -2,6 +2,8 @@
 
 **hierarchical stacks** takes the middleware concept and expand it to a hierarchy of stacks. This construct was designed with http framework in mind but the implemetation tries to be as neutral as possible, so it will be usable for other problem domains.
 
+**(WIP)**
+
 ## install
 
 With [npm](https://npmjs.org) do:
@@ -48,7 +50,7 @@ http.createServer(function(req, res) {
 A path inside a tree: e.g ```a->b->c```. A path is always represented by an array ```['a', 'b', 'c']```. Each path might hold a stack or middlewares and a special error middleware.
 
 ### stack
-A stack is an array of middlewares nested inside a path in the tree. When middlewares are processed in a stack the are processed from index 0 to stack.length -1
+A stack is an array of middlewares nested inside a path in the tree. When middlewares are processed in a stack they are processed from index 0 to stack.length -1
 
 ### middleware
 A middleware function is a part of a stack and takes the form of:
