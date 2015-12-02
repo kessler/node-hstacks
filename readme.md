@@ -8,6 +8,31 @@ This construct was designed with http framework in mind but the implemetation tr
 
 **(WIP)**
 
+```
++-----------------+
+| path: ['a']     |      A message to ['a', 'b', 'c'] will processed
+|                 |      by: f1, f2, f3, f4, f7, f8
+| stack: [f1, f2] |
+|                 |      While a message to ['a','c'] will be processed
++------+----------+      by: [f1, f2, f5, f6]
+       |
+       |
+       |     +-------------------+
+       |     | path: ['a', 'b']  |
+       |     |                   |
+       +-----> stack: [f3, f4]   |
+       |     |                   |
+       |     +---------+---------+      +---------------------+
+       |               |                | path: ['a','b','c'] |
+       |               +---------------->                     |
+       |     +-------------------+      | stack: [f7, f8]     |
+       |     | path: ['a', 'c']  |      |                     |
+       |     |                   |      +---------------------+
+       +----^+ stack: [f5, f6]   |
+             |                   |
+             +-------------------+
+```
+
 ## install
 
 With [npm](https://npmjs.org) do:
