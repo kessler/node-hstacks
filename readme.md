@@ -94,8 +94,7 @@ When a middleware in one of the stacks calls its ```next()``` callback with an e
 
 ## api
 
-  - [new HStacks()](#newhstacks)
-  - [HStacks.prototype.constructor()](#hstacksprototypeconstructor)
+  - [new HStacks()](#new-hstackstrietrie-optional-contextobject-optional)
   - [HStacks.dispatch()](#hstacksdispatchpatharrayargsarray)
   - [HStacks.mount()](#hstacksmountpatharraymiddlewarefunction_iserrormiddlewareboolean)
   - [HStacks.getStack()](#hstacksgetstackpatharray)
