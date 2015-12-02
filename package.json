@@ -4,7 +4,7 @@
   "description": "hierarchical stacks",
   "license": "MIT",
   "keywords": [
-    "middleware"
+    "middleware", "stack", "async"
   ],
   "author": {
     "name": "yaniv kessler",
@@ -12,7 +12,7 @@
     "url": "blog.yanivkessler.com"
   },
   "scripts": {
-    "test": "mocha test/**/*.js"
+    "test": "mocha"
   },
   "dependencies": {
     "async": "^1.5.0",
@@ -25,7 +25,7 @@
     "mocha": "^2.3.4"
   },
   "engines": {
-    "node": ">=0.10.0",
+    "node": ">= 4.0.0",
     "npm": ">=2.0.0"
   }
 }
