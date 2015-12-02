@@ -1,6 +1,10 @@
 # hstacks [![npm status](http://img.shields.io/npm/v/hstacks.svg?style=flat-square)](https://www.npmjs.org/package/hstacks) 
 
-**hierarchical stacks** takes the middleware concept and expand it to a hierarchy of stacks. This construct was designed with http framework in mind but the implemetation tries to be as neutral as possible, so it will be usable for other problem domains.
+**Hierarchical stacks** takes the middleware concept and expand it to a hierarchy of stacks. 
+
+Linear message processing is a good and clear solution for many use cases. However, in some use cases there are hundreds, thousands or millions of middlewares and every message is relevant only to a small portion of those. This module attempts to address this problem.
+
+This construct was designed with http framework in mind but the implemetation tries to be as neutral as possible, so it will be usable for other problem domains.
 
 **(WIP)**
 
