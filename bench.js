@@ -1,6 +1,6 @@
 'use strict'
 
-var HStacks = require('../lib/HStacks')
+var HStacks = require('./index')
 var async = require('async')
 
 var topic = new HStacks()
